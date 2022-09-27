@@ -1,0 +1,13 @@
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\bin\Debug\CadastroVeiculo.exe.config
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\bin\Debug\CadastroVeiculo.exe
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\bin\Debug\CadastroVeiculo.pdb
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.csproj.SuggestedBindingRedirects.cache
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.Properties.Resources.resources
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.csproj.GenerateResource.cache
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.exe
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.pdb
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.frmCaminhao.resources
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.frmHome.resources
+C:\Users\guilh\Desktop\DS\CadastroVeiculo\CadastroVeiculo\obj\Debug\CadastroVeiculo.frmCarro.resources
