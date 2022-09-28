@@ -194,6 +194,7 @@
             this.btnCadastrar.TabIndex = 17;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnExibir
             // 
@@ -204,6 +205,7 @@
             this.btnExibir.TabIndex = 18;
             this.btnExibir.Text = "Exibir";
             this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
             // 
             // btnVoltar
             // 
@@ -214,6 +216,7 @@
             this.btnVoltar.TabIndex = 19;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // txtCarroceria
             // 
@@ -249,6 +252,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmCarro";
             this.Text = "Cadastrar Carro";
+            this.Load += new System.EventHandler(this.frmCarro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

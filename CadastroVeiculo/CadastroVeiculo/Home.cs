@@ -24,7 +24,21 @@ namespace CadastroVeiculo
 
         private void btnCarro_Click(object sender, EventArgs e)
         {
-            
+            frmCarro formCarro = new frmCarro();
+            this.Hide();
+            formCarro.Show();
+        }
+
+        private void btnCaminhao_Click(object sender, EventArgs e)
+        {
+            frmCaminhao formCaminhao = new frmCaminhao();
+            this.Hide();
+            formCaminhao.Show();
+        }
+
+        private void frmHome_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

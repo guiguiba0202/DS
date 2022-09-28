@@ -16,5 +16,12 @@ namespace CadastroVeiculo
         {
             InitializeComponent();
         }
+
+        private void btnVoltar1_Click(object sender, EventArgs e)
+        {
+            frmHome formHome = new frmHome();
+            this.Hide();
+            formHome.Show();
+        }
     }
 }

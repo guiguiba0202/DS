@@ -64,17 +64,19 @@
             this.btnCaminhao.TabIndex = 2;
             this.btnCaminhao.Text = "Cadastrar Caminhão";
             this.btnCaminhao.UseVisualStyleBackColor = true;
+            this.btnCaminhao.Click += new System.EventHandler(this.btnCaminhao_Click);
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 347);
+            this.ClientSize = new System.Drawing.Size(784, 331);
             this.Controls.Add(this.btnCaminhao);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCarro);
             this.Name = "frmHome";
             this.Text = "Cadastrar Veículos";
+            this.Load += new System.EventHandler(this.frmHome_Load);
             this.ResumeLayout(false);
 
         }
