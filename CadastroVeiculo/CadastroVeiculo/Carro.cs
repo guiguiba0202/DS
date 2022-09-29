@@ -1,51 +1,60 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace CadastroVeiculo
+namespace DsVeiculo
 {
-    public partial class frmCarro : Form
+    public class Carro : Veiculo.Veiculo
     {
-        cCarro carro;
-        public frmCarro()
+        private string portas;
+        private string bagagem;
+        private string carroceria;
+
+
+        public Carro()
         {
-            InitializeComponent();
+            this.portas = null;
+            this.bagagem = null;
+            this.carroceria = null;
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        public Carro(string marca, string modelo, string chassi, string cor, string placa, string portas, string bagagem, string carroceria)
         {
-            frmHome formHome = new frmHome();
-            this.Hide();
-            formHome.Show();
+            this.Marca = marca;
+            this.Modelo = modelo;
+            this.Chassi = chassi;
+            this.Cor = cor;
+            this.Placa = placa;
+            this.Portas = portas;
+            this.Bagagem = bagagem;
+            this.Carroceria = carroceria;
         }
 
-        private void frmCarro_Load(object sender, EventArgs e)
+        public string Portas
         {
-
+            get { return portas; }
+            set { portas = value; }
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
+        public string Bagagem
         {
-            carro = new cCarro(txtMarca.Text, txtModel.Text, txtChassi.Text, txtCor.Text, txtPlaca.Text, txtPortas.Text, txtBagagem.Text, txtCarroceria.Text);
-            txtMarca.Clear();
-            txtModel.Clear();
-            txtChassi.Clear();
-            txtCor.Clear();
-            txtPlaca.Clear();
-            txtPortas.Clear();
-            txtBagagem.Clear();
-            txtCarroceria.Clear();
+            get { return bagagem; }
+            set { bagagem = value; }
         }
 
-        private void btnExibir_Click(object sender, EventArgs e)
+        public string Carroceria
         {
-            
+            get { return carroceria; }
+            set { carroceria = value; }
+        }
+
+        public override string FunfaLogo()
+        {
+            String s = String.Empty;
+            s = String.Concat("Marca: ", this.Marca, "\n", "Modelo: ", this.Modelo, "\n", "Chassi: ", this.Chassi, "\n", "Cor: ", this.Cor, "\n", "Placa: ", this.Placa, "\n", "N° de portas: ", this.Portas, "\n", "Quantidade de bagagens: ", this.Bagagem, "\n", "Carroceria: ", this.Carroceria, "\n");
+            return s;
         }
     }
 }
